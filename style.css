@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+.container>div{
+   border: 1px solid gray;
+}
+.item:first-child{
+    height:200px ;
+}
+.item:last-child{
+    background: lightgreen;
+}
+.item:nth-child(2){
+    height: 200px;
+}
+.item:nth-child(n+3){
+    height: 100px;
+}
